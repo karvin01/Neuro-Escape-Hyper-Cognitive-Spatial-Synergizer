@@ -21,6 +21,15 @@ namespace NeuroEscape
         [Tooltip("Degrees per second.")]
         public float openSpeed = 120f;
 
+        [Header("Sound")]
+        [Tooltip("Optional. Played once when the door starts opening (e.g. a creak).")]
+        public AudioClip openSound;
+        [Range(0f, 1f)] public float soundVolume = 0.8f;
+        [Tooltip("Optional. Played when E is pressed without the right key (still locked).")]
+        public AudioClip lockedSound;
+
+        float nextLockedSoundTime;
+
         public bool IsOpen { get; private set; }
 
         Quaternion openRotation;
@@ -57,13 +66,29 @@ namespace NeuroEscape
             if (IsOpen || openedByPuzzleOnly) return;
             if (requiredKey != null)
             {
-                if (Inventory.Instance == null || !Inventory.Instance.Has(requiredKey)) return;
+                if (Inventory.Instance == null || !Inventory.Instance.Has(requiredKey))
+                {
+                    PlayLockedSound();
+                    return;
+                }
                 if (removeKeyWhenUsed) Inventory.Instance.Remove(requiredKey);
             }
             Open();
         }
 
+        void PlayLockedSound()
+        {
+            if (lockedSound == null || Time.time < nextLockedSoundTime) return;   // no spam when E is mashed
+            nextLockedSoundTime = Time.time + lockedSound.length;
+            AudioSource.PlayClipAtPoint(lockedSound, hinge != null ? hinge.position : transform.position, soundVolume);
+        }
+
         /// Opens the door. Puzzle scripts call this when the puzzle is solved.
-        public void Open() => IsOpen = true;
+        public void Open()
+        {
+            if (!IsOpen && openSound != null)
+                AudioSource.PlayClipAtPoint(openSound, hinge != null ? hinge.position : transform.position, soundVolume);
+            IsOpen = true;
+        }
     }
 }

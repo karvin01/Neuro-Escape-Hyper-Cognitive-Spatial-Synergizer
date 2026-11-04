@@ -1471,6 +1471,7 @@ GameObject:
   - component: {fileID: 2658374525928721429}
   - component: {fileID: 8841202185508515900}
   - component: {fileID: 648050901785845997}
+  - component: {fileID: 3855168964323853450}
   m_Layer: 0
   m_Name: PlayerRig
   m_TagString: Untagged
@@ -2658,3 +2659,49 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3855168964323853450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8169876584570781737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e32533396a4f4a939f97a0a2007f9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stoneClips:
+  - {fileID: 8300000, guid: cb9c60f6752149e4bc26c01ec86f5617, type: 3}
+  - {fileID: 8300000, guid: 4c757dceeb154bf084dde89a28a9c268, type: 3}
+  - {fileID: 8300000, guid: 3fd0b1c52d754ffead39cfbcaad6cccc, type: 3}
+  - {fileID: 8300000, guid: aac3be8eb8294e46a96601770d2e52c0, type: 3}
+  - {fileID: 8300000, guid: fc576fc5a9254926ba4112415d594760, type: 3}
+  - {fileID: 8300000, guid: 55c42ce20ff943e2884ca92309fa509b, type: 3}
+  - {fileID: 8300000, guid: 5f488643011b4da3a942a14c992e46d9, type: 3}
+  - {fileID: 8300000, guid: 47072d37d1214eaeb0e9ca01be8e75e6, type: 3}
+  - {fileID: 8300000, guid: 2cd10f646bb24080823eda6772fd90d8, type: 3}
+  woodClips:
+  - {fileID: 8300000, guid: 00885d3cf03444a4b864b69b7df54088, type: 3}
+  - {fileID: 8300000, guid: 3330e78d3d7f4816a4940628888531fb, type: 3}
+  - {fileID: 8300000, guid: 92255b1c13b84f2c9b0aa789e309bfe9, type: 3}
+  - {fileID: 8300000, guid: 88834a2359f74612a37ba4a6e3a6ac91, type: 3}
+  - {fileID: 8300000, guid: 36d8cbd544624987a4f974d807742776, type: 3}
+  - {fileID: 8300000, guid: 45cc15d4c2f447d28f2b29ff5bc51523, type: 3}
+  - {fileID: 8300000, guid: 6f211f3da1bb47bcbd6ada7b8a21fb98, type: 3}
+  - {fileID: 8300000, guid: 8714af9411cd42d1864304b065528175, type: 3}
+  - {fileID: 8300000, guid: 8576195cc5f944ff8d3cb8fc336bb6f7, type: 3}
+  grassClips:
+  - {fileID: 8300000, guid: 4c2f1bc0d6c0418bbf16ed501d272010, type: 3}
+  - {fileID: 8300000, guid: ae1ef0811d354fd58125a129f4d91740, type: 3}
+  - {fileID: 8300000, guid: 67f18c33129b4fffb365ce6540cfb248, type: 3}
+  - {fileID: 8300000, guid: 878e30a28e76481d9a9418d36fbf2f0d, type: 3}
+  - {fileID: 8300000, guid: 4ab031b1dbc6416791a05039ada1fd2b, type: 3}
+  - {fileID: 8300000, guid: 22bcb1adba694a5ca0f2720d7a699422, type: 3}
+  - {fileID: 8300000, guid: 17c6209cb4b8416a86090c8f34d5320a, type: 3}
+  - {fileID: 8300000, guid: b066af4f1d13473aa50c2ad0ee04942c, type: 3}
+  - {fileID: 8300000, guid: fb71ca727eda4b8099556a780e9ac935, type: 3}
+  defaultSurface: 0
+  volume: 0.2
+  stepDistance: 0.45
+  pitchRange: {x: 0.9, y: 1.1}

@@ -16,7 +16,11 @@ namespace NeuroEscape
         {
             if (note == null) return;
             if (reader == null) reader = FindFirstObjectByType<LetterReaderUI>();
-            if (reader != null) reader.Open(note);
+            if (reader != null)
+            {
+                reader.Open(note);
+                Pickup.PlaySound(note.pickupSound);
+            }
             else Debug.LogWarning("ReadableNote: no LetterReaderUI in the scene (is the PlayerRig there?).");
         }
     }
