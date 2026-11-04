@@ -23548,6 +23548,7 @@ GameObject:
   - component: {fileID: 1236007062}
   - component: {fileID: 1236007061}
   - component: {fileID: 1236007064}
+  - component: {fileID: 1236007065}
   m_Layer: 0
   m_Name: SpawnPoint
   m_TagString: Untagged
@@ -23665,6 +23666,18 @@ MonoBehaviour:
   fallHeight: -10
   respawnSound: {fileID: 0}
   respawnVolume: 0
+--- !u!114 &1236007065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236007059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5cfbfefc304446f872f742843aa770d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeuroEscape.ClearInventoryOnStart
 --- !u!1001 &1237140519
 PrefabInstance:
   m_ObjectHideFlags: 0
