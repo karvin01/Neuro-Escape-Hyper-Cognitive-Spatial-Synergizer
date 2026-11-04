@@ -1139,6 +1139,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 27008f41cd30f7648a64f4d7c419b58c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 632829406}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 27008f41cd30f7648a64f4d7c419b58c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 632829409}
   m_SourcePrefab: {fileID: 100100000, guid: 27008f41cd30f7648a64f4d7c419b58c, type: 3}
 --- !u!4 &60515157 stripped
 Transform:
@@ -1592,6 +1595,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 27008f41cd30f7648a64f4d7c419b58c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1607643692}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 27008f41cd30f7648a64f4d7c419b58c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1607643695}
   m_SourcePrefab: {fileID: 100100000, guid: 27008f41cd30f7648a64f4d7c419b58c, type: 3}
 --- !u!4 &87100235 stripped
 Transform:
@@ -3408,6 +3414,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c7002f871886bb348a1f025b14bd69e5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 709753173}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c7002f871886bb348a1f025b14bd69e5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 709753176}
   m_SourcePrefab: {fileID: 100100000, guid: c7002f871886bb348a1f025b14bd69e5, type: 3}
 --- !u!4 &199699273 stripped
 Transform:
@@ -10658,6 +10667,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &632829409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632829403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c148b2774fde4c0cb0547a705824a0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeuroEscape.FootstepSurface
+  surface: 1
 --- !u!1 &632993551
 GameObject:
   m_ObjectHideFlags: 0
@@ -11865,6 +11887,63 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 0}
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!1001 &694682957
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6088018147087547764, guid: 98092a737a5042a1a6d166985f0596ca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088018147087547764, guid: 98092a737a5042a1a6d166985f0596ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088018147087547764, guid: 98092a737a5042a1a6d166985f0596ca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088018147087547764, guid: 98092a737a5042a1a6d166985f0596ca, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088018147087547764, guid: 98092a737a5042a1a6d166985f0596ca, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088018147087547764, guid: 98092a737a5042a1a6d166985f0596ca, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088018147087547764, guid: 98092a737a5042a1a6d166985f0596ca, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088018147087547764, guid: 98092a737a5042a1a6d166985f0596ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088018147087547764, guid: 98092a737a5042a1a6d166985f0596ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088018147087547764, guid: 98092a737a5042a1a6d166985f0596ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6224135108803424966, guid: 98092a737a5042a1a6d166985f0596ca, type: 3}
+      propertyPath: m_Name
+      value: Alex_Music
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98092a737a5042a1a6d166985f0596ca, type: 3}
 --- !u!1001 &700024405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12109,6 +12188,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 0.125, z: 0.5}
   m_Center: {x: 0, y: 0.0625, z: 0.25}
+--- !u!114 &709753176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709753170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c148b2774fde4c0cb0547a705824a0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeuroEscape.FootstepSurface
+  surface: 1
 --- !u!1001 &711086315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12452,6 +12544,9 @@ MonoBehaviour:
   hinge: {fileID: 1276772943}
   openAngle: 90
   openSpeed: 120
+  openSound: {fileID: 8300000, guid: cda346b7bb9841ea82684c6d3535b430, type: 3}
+  soundVolume: 0.8
+  lockedSound: {fileID: 8300000, guid: 53e2c00fe5ba44c7a416831064114b3f, type: 3}
 --- !u!65 &724659660
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12738,6 +12833,7 @@ GameObject:
   - component: {fileID: 736270818}
   - component: {fileID: 736270817}
   - component: {fileID: 736270816}
+  - component: {fileID: 736270820}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -12839,6 +12935,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 33710108}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &736270820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736270815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c148b2774fde4c0cb0547a705824a0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeuroEscape.FootstepSurface
+  surface: 0
 --- !u!1001 &736862554
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13023,6 +13132,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bd485bc388195a14f9c4b94814118ad5, type: 3}
   m_PrefabInstance: {fileID: 739081118}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &743573415
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 188530615700841133, guid: 26ad424f8db045f79155907a7010cff2, type: 3}
+      propertyPath: m_Name
+      value: Alex_AmbientSounds
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860044986847581984, guid: 26ad424f8db045f79155907a7010cff2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860044986847581984, guid: 26ad424f8db045f79155907a7010cff2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860044986847581984, guid: 26ad424f8db045f79155907a7010cff2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860044986847581984, guid: 26ad424f8db045f79155907a7010cff2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860044986847581984, guid: 26ad424f8db045f79155907a7010cff2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860044986847581984, guid: 26ad424f8db045f79155907a7010cff2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860044986847581984, guid: 26ad424f8db045f79155907a7010cff2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860044986847581984, guid: 26ad424f8db045f79155907a7010cff2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860044986847581984, guid: 26ad424f8db045f79155907a7010cff2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860044986847581984, guid: 26ad424f8db045f79155907a7010cff2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 26ad424f8db045f79155907a7010cff2, type: 3}
 --- !u!1 &744501384 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a76efdf080e5dd74f84ddcf254f1f320, type: 3}
@@ -14401,6 +14567,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1337265903359709803, guid: dc58dfec214b2fc48889af95251131ca, type: 3}
       insertIndex: -1
       addedObject: {fileID: 820936274}
+    - targetCorrespondingSourceObject: {fileID: 1337265903359709803, guid: dc58dfec214b2fc48889af95251131ca, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 820936275}
   m_SourcePrefab: {fileID: 100100000, guid: dc58dfec214b2fc48889af95251131ca, type: 3}
 --- !u!4 &820936272 stripped
 Transform:
@@ -14450,6 +14619,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &820936275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454952882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c148b2774fde4c0cb0547a705824a0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeuroEscape.FootstepSurface
+  surface: 1
 --- !u!1001 &828444137
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14788,6 +14970,7 @@ GameObject:
   - component: {fileID: 846355437}
   - component: {fileID: 846355436}
   - component: {fileID: 846355435}
+  - component: {fileID: 846355438}
   m_Layer: 0
   m_Name: Ground (2)
   m_TagString: Untagged
@@ -14889,6 +15072,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846355433}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &846355438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846355433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c148b2774fde4c0cb0547a705824a0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeuroEscape.FootstepSurface
+  surface: 2
 --- !u!1001 &847270368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16887,6 +17083,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 57deca4e60aaa59498f5ea6c09bd7a10, type: 3}
       insertIndex: -1
       addedObject: {fileID: 926862226}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 57deca4e60aaa59498f5ea6c09bd7a10, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 926862229}
   m_SourcePrefab: {fileID: 100100000, guid: 57deca4e60aaa59498f5ea6c09bd7a10, type: 3}
 --- !u!4 &926862223 stripped
 Transform:
@@ -16914,6 +17113,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1.0000001}
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &926862229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437276496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c148b2774fde4c0cb0547a705824a0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeuroEscape.FootstepSurface
+  surface: 1
 --- !u!1001 &933290797
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18629,6 +18841,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ff6a0d936ff4f346b31c503c7437a45, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1930432536}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ff6a0d936ff4f346b31c503c7437a45, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1930432539}
   m_SourcePrefab: {fileID: 100100000, guid: 5ff6a0d936ff4f346b31c503c7437a45, type: 3}
 --- !u!4 &1010928551 stripped
 Transform:
@@ -22312,6 +22527,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2cb83ce0fb2d5494f9d4e8ca25b7da63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1197738278}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2cb83ce0fb2d5494f9d4e8ca25b7da63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1197738281}
   m_SourcePrefab: {fileID: 100100000, guid: 2cb83ce0fb2d5494f9d4e8ca25b7da63, type: 3}
 --- !u!4 &1197738275 stripped
 Transform:
@@ -22339,6 +22557,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 0.125, z: 1}
   m_Center: {x: 0, y: 0.0625, z: 0}
+--- !u!114 &1197738281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733015824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c148b2774fde4c0cb0547a705824a0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeuroEscape.FootstepSurface
+  surface: 1
 --- !u!1 &1200656521 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 43647c70f49b99347876a3721272b442, type: 3}
@@ -23056,6 +23287,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c7002f871886bb348a1f025b14bd69e5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1252539271}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c7002f871886bb348a1f025b14bd69e5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1252539274}
   m_SourcePrefab: {fileID: 100100000, guid: c7002f871886bb348a1f025b14bd69e5, type: 3}
 --- !u!4 &1252539268 stripped
 Transform:
@@ -23083,6 +23317,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 0.125, z: 0.5}
   m_Center: {x: 0, y: 0.0625, z: 0.25}
+--- !u!114 &1252539274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65880223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c148b2774fde4c0cb0547a705824a0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeuroEscape.FootstepSurface
+  surface: 1
 --- !u!1001 &1254028090
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23484,6 +23731,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ed709e41fa35a9243adf63a7e617c6db, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1264985303}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ed709e41fa35a9243adf63a7e617c6db, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1264985306}
   m_SourcePrefab: {fileID: 100100000, guid: ed709e41fa35a9243adf63a7e617c6db, type: 3}
 --- !u!4 &1264985300 stripped
 Transform:
@@ -23512,6 +23762,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2245471842417231101, guid: ed709e41fa35a9243adf63a7e617c6db, type: 3}
+--- !u!114 &1264985306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95286377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c148b2774fde4c0cb0547a705824a0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeuroEscape.FootstepSurface
+  surface: 1
 --- !u!1001 &1266471649
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25033,6 +25296,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ed709e41fa35a9243adf63a7e617c6db, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1343722973}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ed709e41fa35a9243adf63a7e617c6db, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1343722976}
   m_SourcePrefab: {fileID: 100100000, guid: ed709e41fa35a9243adf63a7e617c6db, type: 3}
 --- !u!4 &1336725859 stripped
 Transform:
@@ -25218,6 +25484,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2245471842417231101, guid: ed709e41fa35a9243adf63a7e617c6db, type: 3}
+--- !u!114 &1343722976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343722970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c148b2774fde4c0cb0547a705824a0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeuroEscape.FootstepSurface
+  surface: 1
 --- !u!1001 &1346113779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30594,6 +30873,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &1607643695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607643689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c148b2774fde4c0cb0547a705824a0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeuroEscape.FootstepSurface
+  surface: 1
 --- !u!1 &1607745869 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bd485bc388195a14f9c4b94814118ad5, type: 3}
@@ -31911,6 +32203,7 @@ GameObject:
   - component: {fileID: 1661636436}
   - component: {fileID: 1661636435}
   - component: {fileID: 1661636434}
+  - component: {fileID: 1661636437}
   m_Layer: 0
   m_Name: Ground (1)
   m_TagString: Untagged
@@ -32012,6 +32305,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1661636432}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1661636437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661636432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c148b2774fde4c0cb0547a705824a0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeuroEscape.FootstepSurface
+  surface: 0
 --- !u!1001 &1662080726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32127,6 +32433,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1663981645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262370651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c148b2774fde4c0cb0547a705824a0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeuroEscape.FootstepSurface
+  surface: 1
 --- !u!1001 &1666421271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34451,6 +34770,9 @@ MonoBehaviour:
   hinge: {fileID: 1274061074}
   openAngle: 90
   openSpeed: 120
+  openSound: {fileID: 8300000, guid: cda346b7bb9841ea82684c6d3535b430, type: 3}
+  soundVolume: 0.8
+  lockedSound: {fileID: 8300000, guid: 53e2c00fe5ba44c7a416831064114b3f, type: 3}
 --- !u!65 &1752895949
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34909,6 +35231,9 @@ MonoBehaviour:
   hinge: {fileID: 631461292}
   openAngle: 90
   openSpeed: 120
+  openSound: {fileID: 8300000, guid: cda346b7bb9841ea82684c6d3535b430, type: 3}
+  soundVolume: 0.8
+  lockedSound: {fileID: 8300000, guid: 53e2c00fe5ba44c7a416831064114b3f, type: 3}
 --- !u!65 &1767149627
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36251,6 +36576,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1812879336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209521368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c148b2774fde4c0cb0547a705824a0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeuroEscape.FootstepSurface
+  surface: 1
 --- !u!1001 &1813527695
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38639,6 +38977,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ed709e41fa35a9243adf63a7e617c6db, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1915050264}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ed709e41fa35a9243adf63a7e617c6db, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1915050267}
   m_SourcePrefab: {fileID: 100100000, guid: ed709e41fa35a9243adf63a7e617c6db, type: 3}
 --- !u!4 &1915050261 stripped
 Transform:
@@ -38667,6 +39008,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2245471842417231101, guid: ed709e41fa35a9243adf63a7e617c6db, type: 3}
+--- !u!114 &1915050267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865569789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c148b2774fde4c0cb0547a705824a0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeuroEscape.FootstepSurface
+  surface: 1
 --- !u!1001 &1917479598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38978,6 +39332,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 4.581
       objectReference: {fileID: 0}
+    - target: {fileID: 3175065192162207488, guid: 8c079b9e072245c8b02648eaa0c49819, type: 3}
+      propertyPath: solvedVolume
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3330686790364549294, guid: 8c079b9e072245c8b02648eaa0c49819, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.568
@@ -39240,6 +39598,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5465423448681595704, guid: 5ff6a0d936ff4f346b31c503c7437a45, type: 3}
+--- !u!114 &1930432539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930432533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c148b2774fde4c0cb0547a705824a0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeuroEscape.FootstepSurface
+  surface: 1
 --- !u!1001 &1931652524
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43631,6 +44002,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ed709e41fa35a9243adf63a7e617c6db, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2146579774}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ed709e41fa35a9243adf63a7e617c6db, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2146579777}
   m_SourcePrefab: {fileID: 100100000, guid: ed709e41fa35a9243adf63a7e617c6db, type: 3}
 --- !u!4 &2146579771 stripped
 Transform:
@@ -43659,6 +44033,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2245471842417231101, guid: ed709e41fa35a9243adf63a7e617c6db, type: 3}
+--- !u!114 &2146579777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77600387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c148b2774fde4c0cb0547a705824a0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeuroEscape.FootstepSurface
+  surface: 1
 --- !u!1001 &40942233870370405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43947,6 +44334,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6253179967228858094, guid: 5ed0bb8a2053be642881b2ca4596fd74, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1812879335}
+    - targetCorrespondingSourceObject: {fileID: 6253179967228858094, guid: 5ed0bb8a2053be642881b2ca4596fd74, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1812879336}
   m_SourcePrefab: {fileID: 100100000, guid: 5ed0bb8a2053be642881b2ca4596fd74, type: 3}
 --- !u!1001 &1501614067202513548
 PrefabInstance:
@@ -44067,6 +44457,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 616807010045018029, guid: 4d33550c6e8531b4e982dbb448f01b59, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1663981644}
+    - targetCorrespondingSourceObject: {fileID: 616807010045018029, guid: 4d33550c6e8531b4e982dbb448f01b59, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1663981645}
   m_SourcePrefab: {fileID: 100100000, guid: 4d33550c6e8531b4e982dbb448f01b59, type: 3}
 --- !u!1001 &5582940733981883582
 PrefabInstance:
@@ -44253,3 +44646,5 @@ SceneRoots:
   - {fileID: 1520436549}
   - {fileID: 517203722}
   - {fileID: 1925305287}
+  - {fileID: 694682957}
+  - {fileID: 743573415}

@@ -67,6 +67,8 @@ MonoBehaviour:
   onSolved:
     m_PersistentCalls:
       m_Calls: []
+  solvedSound: {fileID: 8300000, guid: 12f6eed5b1b147049161503a0a2e882e, type: 3}
+  solvedVolume: 0.6
 --- !u!1 &1074563636926717614
 GameObject:
   m_ObjectHideFlags: 0

@@ -24,6 +24,11 @@ namespace NeuroEscape
         public Door[] doorsToOpen;
         public UnityEvent onSolved;
 
+        [Header("Sound")]
+        [Tooltip("Plays when the puzzle is solved, so the player knows it worked.")]
+        public AudioClip solvedSound;
+        [Range(0f, 1f)] public float solvedVolume = 0.6f;
+
         public bool Solved { get; private set; }
 
         void Start()
@@ -61,10 +66,28 @@ namespace NeuroEscape
                 if (s != null && !s.IsLit) return;
 
             Solved = true;
+            Pickup.PlaySound(solvedSound, solvedVolume);
             foreach (Portcullis p in rattleOnSolve) if (p != null) p.Rattle();
             foreach (Portcullis p in openOnSolve) if (p != null) p.Open();
             foreach (Door d in doorsToOpen) if (d != null) d.Open();
             onSolved?.Invoke();
+        }
+
+        // ---- Testing (Play mode): right-click the "Sconce Puzzle" title in the Inspector ----
+
+        [ContextMenu("Test: play solved sound")]
+        void TestSolvedSound()
+        {
+            if (!Application.isPlaying) { Debug.Log("Press Play first (or click the sound in the Project window to preview it)."); return; }
+            Pickup.PlaySound(solvedSound, solvedVolume);
+        }
+
+        [ContextMenu("Test: solve the puzzle now")]
+        void TestSolveNow()
+        {
+            if (!Application.isPlaying) { Debug.Log("Press Play first."); return; }
+            foreach (Sconce s in sconces) if (s != null) s.SetLit(true);
+            CheckSolved();
         }
     }
 }

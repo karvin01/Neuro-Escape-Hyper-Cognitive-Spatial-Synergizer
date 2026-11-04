@@ -558,6 +558,7 @@ GameObject:
   - component: {fileID: 7793310826810980143}
   - component: {fileID: 1600219244697461825}
   - component: {fileID: 3376793867839745544}
+  - component: {fileID: 8736964188698958802}
   m_Layer: 0
   m_Name: Alex_Torch_Standing
   m_TagString: Untagged
@@ -627,3 +628,21 @@ MonoBehaviour:
   flickerSpeed: 7
   frames: 4
   framesPerSecond: 9
+--- !u!114 &8736964188698958802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4281971900251588409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb181f71e334829998ebefbc49d80f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: ff924e3854754a02a86a6cdbf320724e, type: 3}
+  volume: 0.03
+  spatial: 1.0
+  minDistance: 0.5
+  maxDistance: 3
+  pitchRange: {x: 0.9, y: 1.1}

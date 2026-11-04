@@ -504,6 +504,7 @@ GameObject:
   - component: {fileID: 1758717040340295356}
   - component: {fileID: 1217967004909616184}
   - component: {fileID: 6720323072520195788}
+  - component: {fileID: 1706121454232518575}
   m_Layer: 0
   m_Name: Alex_Torch_Held
   m_TagString: Untagged
@@ -561,3 +562,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   swayAmount: 0.01
   swaySpeed: 1.6
+--- !u!114 &1706121454232518575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4765020596436104119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb181f71e334829998ebefbc49d80f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: ff924e3854754a02a86a6cdbf320724e, type: 3}
+  volume: 0.01
+  spatial: 0.3
+  minDistance: 1
+  maxDistance: 7
+  pitchRange: {x: 0.9, y: 1.1}

@@ -50,6 +50,9 @@ MonoBehaviour:
   speed: 0.8
   rattleTime: 1.5
   rattleAmount: 0.04
+  openSound: {fileID: 8300000, guid: 0ab3be9f3b804408b047b172b49444f9, type: 3}
+  rattleSound: {fileID: 8300000, guid: 2fb65870e55349cf88b7f03d8e7d3e8e, type: 3}
+  volume: 0.8
 --- !u!1 &2708681495029350235
 GameObject:
   m_ObjectHideFlags: 0

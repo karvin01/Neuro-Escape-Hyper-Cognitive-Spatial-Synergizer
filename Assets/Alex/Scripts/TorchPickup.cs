@@ -17,6 +17,11 @@ namespace NeuroEscape
         [Tooltip("Ticked = the bracket starts with a lit torch in it.")]
         public bool startsWithTorch = true;
 
+        [Header("Sounds")]
+        public AudioClip takeSound;
+        public AudioClip placeSound;
+        [Range(0f, 1f)] public float soundVolume = 0.5f;
+
         bool hasTorch;
 
         void Start()
@@ -47,6 +52,7 @@ namespace NeuroEscape
                 {
                     hasTorch = false;
                     ShowTorch(false);
+                    PlaySound(takeSound);
                 }
             }
             else if (inv.Has(torchItem))
@@ -54,7 +60,13 @@ namespace NeuroEscape
                 inv.Remove(torchItem);
                 hasTorch = true;
                 ShowTorch(true);
+                PlaySound(placeSound);
             }
+        }
+
+        void PlaySound(AudioClip clip)
+        {
+            if (clip != null) AudioSource.PlayClipAtPoint(clip, transform.position, soundVolume);
         }
 
         void ShowTorch(bool show)

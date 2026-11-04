@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &188530615700841133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5860044986847581984}
+  - component: {fileID: 6312504942113561868}
+  m_Layer: 0
+  m_Name: Alex_AmbientSounds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5860044986847581984
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188530615700841133}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6312504942113561868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188530615700841133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff6fec18df66491c8ab7f2fc49b98210, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: d02b3d88b244409cb8e0fb3d546aca9c, type: 3}
+    volume: 0.06
+    muffled: 1
+    chance: 0.6
+  - clip: {fileID: 8300000, guid: 071d30d8967442c9ace441fab96536b0, type: 3}
+    volume: 0.3
+    muffled: 1
+    chance: 0.5
+  - clip: {fileID: 8300000, guid: ef1c9dffc0104fb6ac091b0bf3b24bde, type: 3}
+    volume: 0.3
+    muffled: 1
+    chance: 0.5
+  - clip: {fileID: 8300000, guid: 11465050446f43d6893403fb546e6e17, type: 3}
+    volume: 0.3
+    muffled: 1
+    chance: 0.5
+  - clip: {fileID: 8300000, guid: d9de80a5421c42b9be0ae501b0e489f3, type: 3}
+    volume: 0.3
+    muffled: 0
+    chance: 1
+  - clip: {fileID: 8300000, guid: 2816cdc16ee84a23a2b7e3d9d311d8b7, type: 3}
+    volume: 0.25
+    muffled: 1
+    chance: 0.7
+  - clip: {fileID: 8300000, guid: 56804830b6014ec08024d2aa6e9b7c67, type: 3}
+    volume: 0.3
+    muffled: 0
+    chance: 1
+  - clip: {fileID: 8300000, guid: 73e2af6ffe4d4a3da5623dde607098ef, type: 3}
+    volume: 0.3
+    muffled: 0
+    chance: 1
+  - clip: {fileID: 8300000, guid: f25b55fb0a93441ba3d466908b8838aa, type: 3}
+    volume: 0.3
+    muffled: 0
+    chance: 1
+  - clip: {fileID: 8300000, guid: 82f0c6f9e0964a92a23e4bd8e526fb66, type: 3}
+    volume: 0.3
+    muffled: 0
+    chance: 1
+  delay: {x: 10, y: 25}
+  distance: {x: 3, y: 7}
+  muffledDistance: {x: 7, y: 11}
+  masterVolume: 1
+  pitchRange: {x: 0.92, y: 1.05}
