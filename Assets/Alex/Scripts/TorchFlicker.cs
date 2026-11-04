@@ -22,6 +22,9 @@ namespace NeuroEscape
         public int frames = 4;
         public float framesPerSecond = 9f;
 
+        [Tooltip("1 = normal. Lower = dimmer (scripts can change this, e.g. a sulking bonfire).")]
+        [Range(0f, 1f)] public float brightness = 1f;
+
         static readonly int BaseMapST = Shader.PropertyToID("_BaseMap_ST");
         MaterialPropertyBlock block;
         float baseIntensity;
@@ -41,7 +44,7 @@ namespace NeuroEscape
             if (torchLight != null)
             {
                 float n = Mathf.PerlinNoise(t, seed) * 2f - 1f;
-                torchLight.intensity = Mathf.Max(0f, baseIntensity + n * flickerAmount);
+                torchLight.intensity = Mathf.Max(0f, baseIntensity + n * flickerAmount) * brightness;
             }
 
             if (flames == null || frames < 1) return;
