@@ -31,7 +31,7 @@ namespace NeuroEscape
         void Update()
         {
             Keyboard kb = Keyboard.current;
-            if (kb == null) return;
+            if (kb == null || DialogueBox.IsOpen || InspectViewer.IsOpen) return;   // number keys pick answers while someone talks
 
             if (kb.digit1Key.wasPressedThisFrame) UseSlot(0);
             if (kb.digit2Key.wasPressedThisFrame) UseSlot(1);

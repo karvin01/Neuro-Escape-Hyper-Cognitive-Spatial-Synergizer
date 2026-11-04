@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5755912240747357806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2563880206533877488}
+  - component: {fileID: 1816884121717264810}
+  m_Layer: 0
+  m_Name: InspectViewer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2563880206533877488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5755912240747357806}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+  m_LocalPosition: {x: 0.0000, y: 0.0000, z: 0.0000}
+  m_LocalScale: {x: 1.0000, y: 1.0000, z: 1.0000}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1816884121717264810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5755912240747357806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be60fd74c75241df8b5d0889f38eea90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textFont: {fileID: 11400000, guid: df90f8ac0a3b76c43851216f9e160a54, type: 2}
+  titleFont: {fileID: 11400000, guid: 032a278896b36bb478b3efde1cfff3b9, type: 2}
+  inkColor: {r: 0.17, g: 0.1, b: 0.05, a: 1}
+  parchmentColor: {r: 0.93, g: 0.86, b: 0.7, a: 1}
+  defaultPaper: {fileID: 21300000, guid: 8f562b179a1440d491c055a9d760d482, type: 3}
+  maxTextSize: 34
+  pageTurnSounds:
+  - {fileID: 8300000, guid: a0808b5e03c64bd8b458dd5985775caa, type: 3}
+  - {fileID: 8300000, guid: 9c973e9e373d453d9ad442b356a3df34, type: 3}
+  - {fileID: 8300000, guid: fc6c2de619394a6aa01d7ec7ad370284, type: 3}
+  pageTurnVolume: 0.35
