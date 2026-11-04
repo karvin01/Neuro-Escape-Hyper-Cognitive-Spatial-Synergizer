@@ -3,11 +3,11 @@ using UnityEngine;
 
 namespace NeuroEscape
 {
-    /// Holds the 4 hotbar slots. Creates itself when first used and survives scene changes,
+    /// Holds the 6 hotbar slots. Creates itself when first used and survives scene changes,
     /// so items stay in the hotbar when the player moves to the next map. No setup needed.
     public class Inventory : MonoBehaviour
     {
-        public const int SlotCount = 4;
+        public const int SlotCount = 6;
 
         static Inventory instance;
         static bool quitting;
