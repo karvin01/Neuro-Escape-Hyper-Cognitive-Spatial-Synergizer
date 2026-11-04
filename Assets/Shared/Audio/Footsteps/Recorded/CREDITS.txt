@@ -1,0 +1,9 @@
+Recorded footsteps - from "Footsteps on different surfaces" (OpenGameArt, compiled by congusbongus)
+https://opengameart.org/content/footsteps-on-different-surfaces
+License: CC-BY 3.0 - http://creativecommons.org/licenses/by/3.0/  (credit the authors in the game credits)
+
+Stone/  derived from "footstep-concrete.wav" by swuing - https://freesound.org/people/swuing/sounds/38873/
+Wood/   derived from "footstep-wood.wav" by swuing - https://freesound.org/people/swuing/sounds/38876/  (volume lowered 5 dB)
+Grass/  derived from "footstep-grass.wav" by swuing - https://freesound.org/people/swuing/sounds/38874/ (volume lowered 5 dB)
+
+Credit line for the game:  Footstep sounds by swuing (freesound.org), CC-BY 3.0

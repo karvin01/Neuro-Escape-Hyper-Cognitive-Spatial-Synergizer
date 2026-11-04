@@ -16,5 +16,14 @@ namespace NeuroEscape
 
         [TextArea(4, 15)]
         public string text;
+
+        [Tooltip("Optional. Paper picture shown behind the text when it is read (e.g. a torn page). Empty = the normal letter panel.")]
+        public Sprite paper;
+
+        [Tooltip("Optional. Something held in the hand (e.g. the torch). F or its hotbar key takes it out / puts it away.")]
+        public GameObject heldPrefab;
+
+        [Tooltip("Optional. Sound played when it is picked up (or read, for notes read in place).")]
+        public AudioClip pickupSound;
     }
 }

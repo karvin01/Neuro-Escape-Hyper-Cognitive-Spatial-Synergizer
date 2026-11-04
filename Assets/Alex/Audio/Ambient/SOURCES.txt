@@ -1,0 +1,16 @@
+Sounds cut, shortened and volume-matched from these downloads (Pixabay-style file names; Pixabay Content License = free, no credit required - double-check the source):
+Ambient (this folder):
+  Alex_Amb_Scream         <- ikslatt-man-screaming-563491.mp3 (+ added room echo)
+  Alex_Amb_Running_1..3   <- freesound_community-running-sounds-6003.mp3 (3 short pieces, + added room echo)
+  Alex_Amb_Chains_Drag    <- dragon-studio-heavy-chains-dragging-515264.mp3
+  Alex_Amb_Gate_Slam      <- freesound_community-gates-of-hell-gate-slam-1-39462.mp3
+  Alex_Amb_IronDoor_1..2  <- freesound_community-queaking-noise-of-the-iron-door-68701.mp3
+Gates (Alex/Audio):
+  Alex_SFX_Gate_Small_Open (the 3 key doors)  <- freesound_community-irongate2-85045.mp3
+  Alex_SFX_Gate_Rattle + Alex_SFX_Gate_Open (portcullis) <- freesound_community-gate-heavy-openclose-wav-103288.mp3
+Pickup (Shared/Audio/Pickup):
+  SFX_Pickup_Key <- freesound_community-key-get-39925.mp3
+Added later:
+  Alex_Amb_Wind_1..2 <- creatorshome-mountain-wind-371074.mp3 (2 short gusts)
+  Alex_SFX_Puzzle_Solved (sconce puzzle) <- universfield-wind-whoosh-141288.mp3
+  Alex_SFX_Gate_Locked (3 entrances, no key) <- freesound_community-086052_gate-locked-40308.mp3
