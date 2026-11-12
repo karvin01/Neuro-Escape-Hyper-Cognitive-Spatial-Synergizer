@@ -23743,6 +23743,14 @@ PrefabInstance:
       value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 5555838559399977143, guid: ef65f6d3dc9241c9985c670e59619ffb, type: 3}
+      propertyPath: nextScene
+      value: Main_map
+      objectReference: {fileID: 0}
+    - target: {fileID: 5555838559399977143, guid: ef65f6d3dc9241c9985c670e59619ffb, type: 3}
+      propertyPath: nextTravelPoint
+      value: WandRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 5555838559399977143, guid: ef65f6d3dc9241c9985c670e59619ffb, type: 3}
       propertyPath: itemsNeeded.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -24465,6 +24473,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 404536415509318208, guid: ea1aaa88075348ce80dea9c1da4de755, type: 3}
   m_PrefabInstance: {fileID: 1872513938}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1262692256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1262692258}
+  - component: {fileID: 1262692257}
+  m_Layer: 0
+  m_Name: Trials_CastleIntro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1262692257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262692256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20bffabd7ff648f28471e7ebae984b1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeuroEscape.DialogueTrigger
+  startWhen: 2
+  dialogue: {fileID: 11400000, guid: 5ede77aa24e84ab1ae475de0377b97a3, type: 2}
+  repeatDialogue: {fileID: 0}
+  onlyOnce: 1
+  prompt: Press E to talk
+  onFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  onChoice:
+    m_PersistentCalls:
+      m_Calls: []
+  onCorrectAnswer:
+    m_PersistentCalls:
+      m_Calls: []
+  onWrongAnswer:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &1262692258
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262692256}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1264985299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46570,3 +46639,4 @@ SceneRoots:
   - {fileID: 694682957}
   - {fileID: 743573415}
   - {fileID: 1237140519}
+  - {fileID: 1262692258}
