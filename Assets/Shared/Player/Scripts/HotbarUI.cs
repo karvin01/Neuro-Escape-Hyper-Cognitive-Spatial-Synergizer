@@ -28,10 +28,21 @@ namespace NeuroEscape
             if (inv != null) inv.Changed -= Refresh;
         }
 
+        Canvas hud;
+        bool hiddenByMenu;
+
         void Update()
         {
+            // hide the whole HUD (hotbar, crosshair, prompts) behind the title screen / pause menu
+            if (GameMenu.IsOpen != hiddenByMenu)
+            {
+                hiddenByMenu = GameMenu.IsOpen;
+                if (hud == null) { hud = GetComponentInParent<Canvas>(); if (hud != null) hud = hud.rootCanvas; }
+                if (hud != null) hud.enabled = !hiddenByMenu;
+            }
+
             Keyboard kb = Keyboard.current;
-            if (kb == null || DialogueBox.IsOpen || InspectViewer.IsOpen || CodeInputBox.IsOpen) return;   // number keys pick answers / type codes
+            if (kb == null || DialogueBox.IsOpen || InspectViewer.IsOpen || CodeInputBox.IsOpen || GameMenu.IsOpen) return;   // number keys pick answers / type codes
 
             if (kb.digit1Key.wasPressedThisFrame) UseSlot(0);
             if (kb.digit2Key.wasPressedThisFrame) UseSlot(1);

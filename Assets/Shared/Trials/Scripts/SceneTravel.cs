@@ -98,7 +98,7 @@ namespace NeuroEscape
         static void Arrived(TravelPoint p)
         {
             if (p.clearHotbarOnArrival) ClearHotbar();
-            if (p.arrivalDialogue != null) DialogueBox.Play(p.arrivalDialogue);
+            if (p.arrivalDialogue != null) GameMenu.WhenPlaying(() => DialogueBox.Play(p.arrivalDialogue));   // waits for "Play" on the title screen
         }
 
         static void ClearHotbar()
