@@ -63,6 +63,8 @@ namespace NeuroEscape
         public UnityEvent onCorrect;
         [Tooltip("Optional. Scene to load after the right answers (must be in File > Build Profiles > Scene List).")]
         public string nextScene;
+        [Tooltip("Optional. Travel Point Id in that scene to arrive at (e.g. WandRoom). Empty = the scene's normal start.")]
+        public string nextTravelPoint;
 
         [Header("Annoying him")]
         public float spamSeconds = 4f;
@@ -217,7 +219,7 @@ namespace NeuroEscape
         IEnumerator LoadNext()
         {
             yield return new WaitForSeconds(1.2f);
-            SceneManager.LoadScene(nextScene);
+            SceneTravel.GoToScene(nextScene, nextTravelPoint);   // fades out, then loads
         }
 
         bool PuzzlesSolved()
